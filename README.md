@@ -40,4 +40,9 @@ One of the largest packages to disrupt the environment:
 Press `q` (letter **q**) when the video is active
 
 ---
+
+### Project files:
+- *myface_recognition.py*: Video detection of a person
+- *myface_recognition_smile.py*: Video detection of face and a smile
+---
 > This is an academic course project with additional changes for my customized *Anaconda* environment, as part of [SuperDataScience](https://www.superdatascience.com/) instruction found on [Udemy](https://udemy.com) 2019
