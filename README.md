@@ -7,7 +7,7 @@ First project to explore simple facial recognition through the use of *Haar Feat
 
 This library is self-contained through the [OpenCV project](https://opencv.org) using its 4.1.2 packages. *(As of Dec. 23, 2019, OpenCV released 4.2.0)* I plan to update my computer vision detection project to OpenCV 4.2.0 in the next few iterations.
 
-## OpenCV 4.1.2 in a Spyder framework or Microoft Visual Code
+## OpenCV 4.1.2 in a Spyder framework or Microsoft Visual Code
 
 Overall, the opporunity presented more complex in the establishing the environment in *Anaconda.* The dependencies I highlighted briefly in my blog [jeremywood.ai](https://jeremywood.ai/python-environment-assembly-for-opencv/).
 My initial run of my *python* code testing better inside *Visual Code 14.0.* I have since adjusted the computer vision detection lines to better accommodate a new *pyhton* environment that I have exported into [OpenCV_v3.txt](https://github.com/jeremywood-ai/computer-vision.github.io/blob/master/openCV_v3.1.txt) for others to reveiw. There are addition packages I have added for coding amenities and platform versatility I was able to refined it better to my workflow in *Spyder*.
