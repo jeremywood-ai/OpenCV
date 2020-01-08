@@ -1,19 +1,8 @@
 # OpenCV Project Pages
+
 ## OpenCV project developed in *Python*
 
-**Using Spyder 3.2.3 and Anaconda Navigator**
-
-First project to explore simple facial recognition through the use of *Haar Features.*
-
-This library is self-contained through the [OpenCV project](https://opencv.org) using its 4.1.2 packages. *(As of Dec. 23, 2019, OpenCV released 4.2.0)* I plan to update my computer vision detection project to OpenCV 4.2.0 in the next few iterations.
-
-## OpenCV 4.1.2 in a Spyder framework or Microsoft Visual Code
-
-Overall, the opporunity presented more complex in the establishing the environment in *Anaconda.* The dependencies I highlighted briefly in my blog [jeremywood.ai](https://jeremywood.ai/python-environment-assembly-for-opencv/).
-My initial run of my *python* code testing better inside *Visual Code 14.0.* I have since adjusted the computer vision detection lines to better accommodate a new *pyhton* environment that I have exported into [OpenCV_v3.txt](https://github.com/jeremywood-ai/computer-vision.github.io/blob/master/openCV_v3.1.txt) for others to reveiw. There are addition packages I have added for coding amenities and platform versatility I was able to refined it better to my workflow in *Spyder*.
-
-## Computer Vision Proof of Detection
-
+Computer Vision Proof of Detection
 This projects set up how to use OpenCV's library to create a webcam person detection system.
 
 ### List of Detectors Used
@@ -21,6 +10,17 @@ This projects set up how to use OpenCV's library to create a webcam person detec
 - haarcascade_eye.xml                   : detect eye features
 - haarcascade_frontalface_default.xml   : detect full face features
 - haarcascade_smile.xml                 : detect a smile on a person
+
+**Using Spyder 3.2.3 and Anaconda Navigator**
+
+First project to explore simple facial recognition through the use of *Haar Features.*
+
+This library is self-contained through the [OpenCV project](https://opencv.org) using its 4.1.2 packages. *(As of Dec. 23, 2019, OpenCV released 4.2.0)* I plan to update my computer vision detection project to OpenCV 4.2.0 in the next few iterations.
+
+## OpenCV 4.1.2 in Spyder framework or Microsoft Visual Code
+
+Overall, the opporunity presented more complex in the establishing the environment in *Anaconda.* The dependencies I highlighted briefly in my blog [jeremywood.ai](https://jeremywood.ai/python-environment-assembly-for-opencv/).
+My initial run of my *python* code testing better inside *Visual Code 14.0.* I have since adjusted the computer vision detection lines to better accommodate a new *pyhton* environment that I have exported into [OpenCV_v3.txt](https://github.com/jeremywood-ai/computer-vision.github.io/blob/master/openCV_v3.1.txt) for others to reveiw. There are addition packages I have added for coding amenities and platform versatility I was able to refined it better to my workflow in *Spyder*.
 
 ## A Note on the Python Environment for openCV project 1.0
 
@@ -39,10 +39,8 @@ One of the largest packages to disrupt the environment:
 ### Ending the Video Detector
 Press `q` (letter **q**) when the video is active
 
----
-
 ### Project files:
-- *myface_recognition.py*: Video detection of a person
-- *myface_recognition_smile.py*: Video detection of face and a smile
+- [myface_recognition.py](myface_recognition.py) : Video detection of a person
+- [myface_recognition_smile.py](myface_recognition_smile.py) : Video detection of face and a smile
 ---
 > This is an academic course project with additional changes for my customized *Anaconda* environment, as part of [SuperDataScience](https://www.superdatascience.com/) instruction found on [Udemy](https://udemy.com) 2019
